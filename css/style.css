@@ -266,11 +266,14 @@ address>ul{
 }
 .section-three-container-list{
     display: flex;
-    gap: 24px;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
     
+}
+.section-three-container-list-another{
+        display: flex;
+        gap: 24px;
 }
 .section-three>.container>ul{
     list-style-type: none;
