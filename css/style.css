@@ -3,6 +3,7 @@ body {
     color: #434455;
     background-color: #FFFFFF;
     margin: 0;
+    width: 1440px;
 }
 h1, h2, h3, h4, h5, h6{
     margin: 0;
@@ -120,6 +121,8 @@ address>ul{
 
 .cont-one{
     background-color: #2e2f42;
+    padding: 188px 472px;
+    text-align: center;
 }
 
 .title-site{
@@ -149,6 +152,11 @@ address>ul{
         color: #FFFFFF;
         background-color: #4D5AE5;
         cursor: pointer;
+        padding: 16px 32px;
+        margin-top: 48px;
+        
+        
+
 }
 .title-button:hover{
     background-color: #404bbf;
@@ -159,6 +167,11 @@ address>ul{
 
 .section-two{
     background-color: #FFFFFF;
+    padding: 120px 156px;
+}
+.section-two-list{
+    display: flex;
+    gap: 24px;
 }
 .section-two>ul{
     list-style-type: none;
@@ -177,6 +190,8 @@ address>ul{
         font-variation-settings: "wdth" 100;
         text-decoration: none;
         color: #2E2F42;
+        text-align: center;
+        margin-bottom: 72px;
 }
 .section-two-list-title{
         font-family: "Roboto", serif;
@@ -189,6 +204,8 @@ address>ul{
         font-variation-settings: "wdth" 100;
         text-decoration: none;
         color: #2E2F42;
+        margin-top: 32px;
+        margin-bottom: 0;
 }
 .section-two-list-text{
     font-family: "Roboto", serif;
@@ -201,16 +218,27 @@ address>ul{
         font-variation-settings: "wdth" 100;
         text-decoration: none;
         color: #434455;
+        margin-top: 8px;
+        margin-bottom: 32px;
 }     
 .section-three{
     background-color: #F4F4FD;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
 }
-
+.section-three-container-list{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
 .section-three>ul{
     list-style-type: none;
 }
 .section-three-list{
     background-color: #FFFFFF;
+
+
 }
 .section-four{
     background-color: #FFFFFF;
