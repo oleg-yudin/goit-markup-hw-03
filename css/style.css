@@ -208,6 +208,7 @@ address>ul{
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
 .section-two-list-width{
   width: calc((100% - 72px) / 4)  
 }
@@ -265,7 +266,6 @@ address>ul{
 }
 .section-three-container-list{
     display: flex;
-    justify-content: center;
     gap: 24px;
     flex-wrap: wrap;
     row-gap: 48px;
