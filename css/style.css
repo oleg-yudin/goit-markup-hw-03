@@ -16,7 +16,22 @@ ul{
 }
 header{
     background-color: #FFFFFF;
+    display: flex;
+    padding: 24px 156px;
+    width: 1440px;
+    border-bottom: 1px solid #E7E9FC;
 }
+.nav-block{
+    display: flex;
+    gap: 76px;
+    margin-right: 332px;
+}
+.ul-block{
+    display: flex;
+    gap: 40px;
+}
+
+
 nav>a{
     text-decoration: none;
 }
