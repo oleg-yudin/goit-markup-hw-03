@@ -3,8 +3,8 @@ body {
     color: #434455;
     background-color: #FFFFFF;
     margin: 0;
-    width: 1440px;
 }
+
 h1, h2, h3, h4, h5, h6{
     margin: 0;
 }
@@ -15,19 +15,35 @@ ul{
     margin: 0;
     padding-left: 0;
 }
-header{
+img{
+    display: block;
+}
+
+.main-header{
     background-color: #FFFFFF;
-    display: flex;
-    padding: 24px 156px;
-    width: 1440px;
     border-bottom: 1px solid #E7E9FC;
+}
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header-block{
+    display: flex;
+    align-items: center;
+    gap: 120px;
 }
 .nav-block{
     display: flex;
+    align-items: center;
     gap: 76px;
-    margin-right: 332px;
+    
 }
 .ul-block{
+    display: flex;
+    gap: 40px;
+}
+.ul-block-address{
     display: flex;
     gap: 40px;
 }
@@ -49,6 +65,7 @@ address>ul{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
+    margin-right: 76px;
 }
 
 .studio{
@@ -82,6 +99,7 @@ address>ul{
         letter-spacing: 0.32px;
         font-variation-settings: "wdth" 100;
         text-decoration: none;
+        padding: 24px 0;
 }
 .nav-link:hover{
     color: #404bbf;
@@ -94,6 +112,7 @@ address>ul{
 }
 .header-address{
     font-style: normal;
+   
 }
 .address{
         color: #434455;
@@ -120,8 +139,8 @@ address>ul{
 
 .cont-one{
     background-color: #2e2f42;
-    padding: 188px 472px;
-    text-align: center;
+    padding: 188px 0;
+
 }
 
 .title-site{
@@ -135,8 +154,8 @@ address>ul{
         letter-spacing: 1.12px;
         font-variation-settings: "wdth" 100;
         text-decoration: none;
-        text-align: center;
         color: #FFFFFF;
+        max-width: 496px;
 }
 .title-button{
         font-family: "Roboto", sans-serif;
@@ -153,9 +172,11 @@ address>ul{
         cursor: pointer;
         padding: 16px 32px;
         margin-top: 48px;
-        
-        
-
+        display: block;
+        min-width: 169px;
+        height: 56px;
+        border: none;
+        border-radius: 4px;
 }
 .title-button:hover{
     background-color: #404bbf;
@@ -166,16 +187,30 @@ address>ul{
 
 .section-two{
     background-color: #FFFFFF;
-    padding: 120px 156px;
+    padding: 120px 0;
 }
 .section-two-list{
     display: flex;
     gap: 24px;
 }
-.section-two>ul{
+.section-two>.container>ul{
     list-style-type: none;
 }
-
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.section-two-list-width{
+  width: calc((100% - 72px) / 4)  
+}
 .sections-title{
         font-family: "Roboto", serif;
         font-optical-sizing: auto;
@@ -204,7 +239,9 @@ address>ul{
         text-decoration: none;
         color: #2E2F42;
         margin-top: 32px;
-        margin-bottom: 0;
+        margin-bottom: 8px;
+        text-align: center;
+        
 }
 .section-two-list-text{
     font-family: "Roboto", serif;
@@ -217,8 +254,8 @@ address>ul{
         font-variation-settings: "wdth" 100;
         text-decoration: none;
         color: #434455;
-        margin-top: 8px;
         margin-bottom: 32px;
+        text-align: center;
 }     
 .section-three{
     background-color: #F4F4FD;
@@ -231,13 +268,21 @@ address>ul{
     justify-content: center;
     gap: 24px;
     flex-wrap: wrap;
+    row-gap: 48px;
+    
 }
-.section-three>ul{
+.section-three>.container>ul{
     list-style-type: none;
 }
+
 .section-three-list{
     background-color: #FFFFFF;
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px;
+}
 
+.section-three-text-container{
+    padding: 32px 0;
 
 }
 .section-four{
@@ -246,8 +291,16 @@ address>ul{
     padding-bottom: 120px;
     text-align: center;
 }
-.section-four>ul{
+.section-four-list{
+    width: calc((100% - 48px) / 3);
+}
+.section-four>.container>ul{
     list-style-type: none;
+}
+.section-four-text-container{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
 }
 footer>a{
     text-decoration: none;
@@ -256,13 +309,14 @@ footer>a{
     background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
-    padding-left: 156px;
 }
-
+.logo-footer{
+    display: inline-block;
+    margin-bottom: 16px;
+}
 .footer-p{
     color: #F4F4FD;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-top: 16px;
-    margin-right: 1020px;
+    max-width: 264px;
 }
