@@ -31,13 +31,11 @@ img{
 .header-block{
     display: flex;
     align-items: center;
-    gap: 120px;
 }
 .nav-block{
     display: flex;
     align-items: center;
-    gap: 76px;
-    
+    margin-right: auto;
 }
 .ul-block{
     display: flex;
@@ -100,6 +98,7 @@ address>ul{
         font-variation-settings: "wdth" 100;
         text-decoration: none;
         padding: 24px 0;
+        display: block;
 }
 .nav-link:hover{
     color: #404bbf;
@@ -175,7 +174,7 @@ address>ul{
         margin-top: 48px;
         display: block;
         min-width: 169px;
-        margin: 48px auto;
+        margin: 48px auto 0px;
         height: 56px;
         border: none;
         border-radius: 4px;
@@ -241,9 +240,8 @@ address>ul{
         font-variation-settings: "wdth" 100;
         text-decoration: none;
         color: #2E2F42;
-        margin-top: 32px;
         margin-bottom: 8px;
-        text-align: center;
+        
         
 }
 .section-two-list-text{
@@ -257,8 +255,7 @@ address>ul{
         font-variation-settings: "wdth" 100;
         text-decoration: none;
         color: #434455;
-        margin-bottom: 32px;
-        text-align: center;
+        
 }     
 .section-three{
     background-color: #F4F4FD;
@@ -307,8 +304,9 @@ address>ul{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
+    text-align: left;
 }
-footer>a{
+footer>.container>a{
     text-decoration: none;
 }
 .footer{
